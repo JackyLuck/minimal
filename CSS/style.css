@@ -102,5 +102,7 @@ footer form input{
     display: block;
     margin: auto;
     border: none;
+}
+main{
     background-image: url("images/SW.jpg");
 }
