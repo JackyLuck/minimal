@@ -62,7 +62,7 @@ footer form div{
 footer form input{
     border: none;
     width: 100%;
-    padding: 18px 31px 17px 31px;
+    padding: 18px 32px 17px 31px;
     box-sizing: border-box;
     height: 57px;
     resize: none;
@@ -78,7 +78,7 @@ footer form input{
     border: none
 }
 .submit_button{
-    padding: 16px 60px;
+    padding: 16px 61px;
     border-color: #7EC4BD;
     background-color: black;
     text-align: center;
