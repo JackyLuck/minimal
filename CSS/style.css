@@ -106,3 +106,7 @@ footer form input{
 main{
     background-image: url("images/SW.jpg");
 }
+.main_banner{
+    min-height: 391;
+    background-image: url("../images/background.jpg");
+}
