@@ -42,7 +42,7 @@ header nav li a{
     display: inline-block;
 }
 header nav li a:hover{
-transform: rotate(360deg);
+    transform: rotate(360deg);
     transition: 0.5s;
 }
 footer{
@@ -98,11 +98,7 @@ footer form input{
     line-height: 22px; color: rgba(255, 255, 255, 0.4)
 
 }
-.block{
-    display: block;
-    margin: auto;
-    border: none;
-}
+
 .main_banner{
     min-height: 391px;
     background-image: url("../images/background.jpg");
@@ -177,7 +173,7 @@ footer form input{
 .block{
     background-color: #F5F5F5;
     padding: 50px 87px 50px 86px;
-    margin-left: 20px;
+    max-width: 300px;
 }
 .brands h2{
     padding-bottom: 43px;
@@ -240,4 +236,14 @@ footer form input{
     background-color: rgba(0, 0, 0, 0.09);
     margin: auto;
     margin-top: 28px;
+}
+.d_flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.particle{
+    min-width: 300px;
 }
