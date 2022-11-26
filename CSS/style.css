@@ -23,6 +23,7 @@ header{
 .d_flex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 #navbar{
@@ -197,6 +198,9 @@ footer form input{
     color: #333333;
     padding: 38px 0 20px;
 }
+.brands article{
+    max-width: 300px;
+}
 .rprojects{
     background-color: #F5F5F5;
     padding: 79px 0 89px;
@@ -237,13 +241,9 @@ footer form input{
     margin: auto;
     margin-top: 28px;
 }
-.d_flex1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap
-}
 
 .particle{
-    min-width: 300px;
+    max-width: 300px;
+    background-color: white;
+    margin-bottom: 20px;
 }
