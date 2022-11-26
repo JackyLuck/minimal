@@ -175,6 +175,7 @@ footer form input{
     background-color: #F5F5F5;
     padding: 50px 87px 50px 86px;
     max-width: 300px;
+    display: inline-block;
 }
 .brands h2{
     padding-bottom: 43px;
